@@ -19,7 +19,7 @@ class GameScene: SKScene {
         let button = UIButton()
         
         button.setTitle("Test", forState: .Normal)
-        button.frame = CGRectMake(0, 0, 15, 40)
+        button.frame = CGRectMake(20, 20, 100, 100)
         self.view?.addSubview(button)
         
         self.addChild(myLabel)

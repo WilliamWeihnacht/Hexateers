@@ -16,6 +16,7 @@
 		4FBA02AC1C79190300571DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA02AA1C79190300571DD3 /* LaunchScreen.storyboard */; };
 		4FBA02B71C79190300571DD3 /* HexateersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA02B61C79190300571DD3 /* HexateersTests.swift */; };
 		4FBA02C21C79190300571DD3 /* HexateersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA02C11C79190300571DD3 /* HexateersUITests.swift */; };
+		4FC15E151C79592F004764CD /* HexagonalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC15E141C79592F004764CD /* HexagonalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4FBA02BD1C79190300571DD3 /* HexateersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexateersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBA02C11C79190300571DD3 /* HexateersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexateersUITests.swift; sourceTree = "<group>"; };
 		4FBA02C31C79190300571DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC15E141C79592F004764CD /* HexagonalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HexagonalButton.swift; path = ../HexagonalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		4FBA029C1C79190300571DD3 /* Hexateers */ = {
 			isa = PBXGroup;
 			children = (
+				4FC15E141C79592F004764CD /* HexagonalButton.swift */,
 				4FBA029D1C79190300571DD3 /* AppDelegate.swift */,
 				4FBA029F1C79190300571DD3 /* GameScene.sks */,
 				4FBA02A11C79190300571DD3 /* GameScene.swift */,
@@ -267,6 +270,7 @@
 				4FBA02A21C79190300571DD3 /* GameScene.swift in Sources */,
 				4FBA02A41C79190300571DD3 /* GameViewController.swift in Sources */,
 				4FBA029E1C79190300571DD3 /* AppDelegate.swift in Sources */,
+				4FC15E151C79592F004764CD /* HexagonalButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
