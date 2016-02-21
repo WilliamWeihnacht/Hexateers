@@ -16,6 +16,12 @@ class GameScene: SKScene {
         myLabel.fontSize = 45
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
         
+        let button = UIButton()
+        
+        button.setTitle("Test", forState: .Normal)
+        button.frame = CGRectMake(0, 0, 15, 40)
+        self.view?.addSubview(button)
+        
         self.addChild(myLabel)
     }
     
@@ -39,6 +45,8 @@ class GameScene: SKScene {
         }
     }
    
+    
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }

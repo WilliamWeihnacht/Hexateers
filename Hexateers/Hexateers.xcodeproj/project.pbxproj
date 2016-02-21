@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					4FBA02991C79190300571DD3 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T34HW69DDM;
 					};
 					4FBA02B11C79190300571DD3 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -405,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hexateers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Honest-Abe-Games.Hexateers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hexateers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Honest-Abe-Games.Hexateers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -492,6 +499,7 @@
 				4FBA02C81C79190300571DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FBA02C91C79190300571DD3 /* Build configuration list for PBXNativeTarget "HexateersTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +508,7 @@
 				4FBA02CB1C79190300571DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FBA02CC1C79190300571DD3 /* Build configuration list for PBXNativeTarget "HexateersUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				4FBA02CE1C79190300571DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
