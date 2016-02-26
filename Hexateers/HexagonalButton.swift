@@ -8,14 +8,19 @@
 
 import UIKit
 
-class HexagonalButton: UIView {
-    // MARK: Initialization
+class HexagonalButton: UIButton {
     
+    // MARK: Initialization
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
-        button.backgroundColor = UIColor.redColor()
+        button.setImage(UIImage(named: "hexagonalButton"), forState: .Normal)
+        
+        button.backgroundColor = UIColor.clearColor()
+        
+        
+        button.addTarget(self, action: "hexagonButtonTapped:", forControlEvents: .TouchDown)
         
         addSubview(button)
         
@@ -25,6 +30,10 @@ class HexagonalButton: UIView {
         return CGSize(width: 44, height: 44)
     }
 
+    //Mark: Button Action
+    func hexagonButtonTapped(button: UIButton) {
+        print("Button Pressed")
+    }
     
 
 }
